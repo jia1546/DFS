@@ -1,0 +1,21 @@
+the linked list representation of the graph is:
+1: 4 2 
+2: 5 
+3: 6 5 
+4: 2 
+5: 4 
+6: 6 
+
+the process of DFS:
+run DFS on node 1
+run DFS on node 4
+run DFS on node 2
+run DFS on node 5
+run DFS on node 3
+run DFS on node 6
+
+node:		1	2	3	4	5	6	
+color:		1	1	1	1	1	1	
+PI:		-1	4	-1	1	2	3	
+discover time:	1	3	9	2	4	10	
+finish time:	8	6	12	7	5	11	

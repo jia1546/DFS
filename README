@@ -1,0 +1,11 @@
+This program simulate the process of DFS
+
+To run this program, you have to save the initiation data of the graph into the file "input.txt". And redirect this file to the program. The format of "input.txt" is as follows:
+n p
+node other_node
+node other_node
+......
+where n is the number of nodes in the graph
+	  p is the number of edges in the graph
+	  and the following p lines give the edges
+Note: We assume the graph to be directed
